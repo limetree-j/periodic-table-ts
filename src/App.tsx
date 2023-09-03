@@ -6,9 +6,9 @@ import QuizWindow from "./components/QuizWindow";
 
 import { DataProvider } from "./hooks/DataContext";
 
-const StyledHeader = styled.h1`
-  margin-left: 2.5%;
-  margin-top: 2.5%;
+const StyledHeader = styled.h3`
+  margin-left: 1em;
+  margin-top: 1em;
 `;
 
 const StyledContainer = styled.div`
