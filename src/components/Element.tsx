@@ -100,7 +100,7 @@ const Element: React.FC<{ data: ElementModel }> = (props) => {
   };
 
   useEffect(() => {
-    if (quizResult[0] && props.data.getPosition() == quizResult[1]) {
+    if (quizResult[0] && props.data.getPosition() === quizResult[1]) {
       setVisibility(quizResult[0]);
     }
   }, [quizResult]);

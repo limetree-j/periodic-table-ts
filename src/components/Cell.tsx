@@ -9,10 +9,10 @@ const StyledCell = styled.div`
   float: left;
 
   .fixed-value {
-    font-size: 1rem;
+    font-size: 1em;
     font-weight: bold;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 1.5em;
   }
 `;
 
